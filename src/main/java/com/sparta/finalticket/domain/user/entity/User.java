@@ -1,6 +1,6 @@
 package com.sparta.finalticket.domain.user.entity;
 
-import com.sparta.finalticket.domain.user.dto.request.SignupRequestDto;
+import com.sparta.finalticket.domain.user.dto.request.UserRequestDto;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -12,12 +12,16 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.SQLDelete;
+import org.hibernate.annotations.Where;
 
 @Getter
 @Setter
 @Table(name = "users")
 @Entity
 @NoArgsConstructor
+@SQLDelete(sql = "UPDATE game SET state = false WHERE id = ?")
+@Where(clause = "state = true")
 public class User {
 
 	@Id
@@ -43,13 +47,27 @@ public class User {
 	@Enumerated(value = EnumType.STRING)
 	private UserRoleEnum role;
 
+	@Column
+	private boolean state;
 
-	public User(SignupRequestDto requestDto, String password, UserRoleEnum role) {
+	public User(UserRequestDto requestDto) {
 		this.username = requestDto.getUsername();
-		this.password = password;
+		this.password = requestDto.getPassword();
 		this.email = requestDto.getEmail();
 		this.nickname = requestDto.getNickname();
-		this.role = role;
+		this.role = requestDto.getRole();
 		this.address = requestDto.getAddress();
+		this.state = true;
+	}
+
+	public User(UserRequestDto requestDto, User user){
+		this.id = user.getId();
+		this.username = requestDto.getUsername();
+		this.password = requestDto.getPassword();
+		this.email = requestDto.getEmail();
+		this.nickname = requestDto.getNickname();
+		this.role = user.getRole();
+		this.address = requestDto.getAddress();
+		this.state = true;
 	}
 }
