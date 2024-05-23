@@ -1,7 +1,7 @@
 ### 📄 개요
 **********************
 * **프로젝트 이름** : **FinalTicket**
-* **프로젝트 제작기간** : 2024.03.26 ~ 2024.04.29
+* **프로젝트 제작기간** : 2024.03.26 ~ 2024.05.18
 * **프로젝트 설명** : 
 소규모 스포츠 경기 티켓팅 사이트<br>
 ### ⚙개발환경
@@ -23,6 +23,8 @@
 ### 📐 와이어 프레임
 **************
 <img width="955" alt="image" src="https://github.com/jehyun-park/java/assets/80663499/cb5c6ad9-f1c5-4956-83d4-05046d6dfc1f">
+<img width="955" alt="스크린샷 2024-04-30 오전 11 46 01" src="https://github.com/sparta-finals/finalticket/assets/80663499/61087702-fa9b-4b6c-8bc4-417c69a34f9e">
+
 
 
 
@@ -38,5 +40,14 @@
 ![image](https://github.com/jehyun-park/java/assets/80663499/1f5fac62-b06b-4f8b-be56-ca6d2c326030)
 
 
+
+=======
+<img width="1265" alt="스크린샷 2024-04-30 오전 11 44 44" src="https://github.com/sparta-finals/finalticket/assets/80663499/47868edb-b067-4794-a30d-0b0000afa0aa">
+
+
+
+### 📜아키텍처
+*************
+<img width="558" alt="스크린샷 2024-04-30 오전 11 47 13" src="https://github.com/sparta-finals/finalticket/assets/80663499/e2345447-ec00-4251-9df4-68dbc2d32bc6">
 
 
