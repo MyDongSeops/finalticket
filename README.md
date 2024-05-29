@@ -29,5 +29,6 @@
 
 ### 🗂️ ERD (Entity Relationship Diagram)
 **************
+![FINAL TICKET](https://github.com/pds148/finalticket/assets/153185223/310a5c81-73ce-49e1-a815-4299b92116c3)
 
 
