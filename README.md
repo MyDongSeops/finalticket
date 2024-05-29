@@ -20,12 +20,4 @@
 - <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white"/>
 
 
-### 📐 와이어 프레임
-**************
-<img width="955" alt="스크린샷 2024-04-30 오전 11 46 01" src="https://github.com/sparta-finals/finalticket/assets/80663499/61087702-fa9b-4b6c-8bc4-417c69a34f9e">
 
-
-
-### 🗂️ ERD (Entity Relationship Diagram)
-**************
-<img width="1265" alt="스크린샷 2024-04-30 오전 11 44 44" src="https://github.com/sparta-finals/finalticket/assets/80663499/47868edb-b067-4794-a30d-0b0000afa0aa">
