@@ -28,8 +28,7 @@
 
 
 ### 🗂️ ERD (Entity Relationship Diagram)
-![FINAL TICKET](https://github.com/pds148/finalticket/assets/153185223/27b8b469-62f7-4306-8bf0-9a1507238fef)
 **************
-
+![FINAL TICKET](https://github.com/pds148/finalticket/assets/153185223/27b8b469-62f7-4306-8bf0-9a1507238fef)
 
 
