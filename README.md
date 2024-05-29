@@ -25,3 +25,10 @@
 ![스크린샷 2024-05-29 155355](https://github.com/pds148/finalticket/assets/153185223/33383626-3eb9-4db2-a7e9-31058d01e736)
 ![스크린샷 2024-05-29 155435](https://github.com/pds148/finalticket/assets/153185223/0c4a52f6-34d0-45d4-9098-927b0b03a5c9)
 ![스크린샷 2024-05-29 155503](https://github.com/pds148/finalticket/assets/153185223/759bbdf5-d379-48d7-9788-48c9006b41bc)
+
+
+### 🗂️ ERD (Entity Relationship Diagram)
+**************
+
+
+
