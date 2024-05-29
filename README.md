@@ -30,18 +30,8 @@
 
 ### 🗂️ ERD (Entity Relationship Diagram)
 **************
-<img width="1265" alt="스크린샷 2024-04-30 오전 11 44 44" src="https://github.com/jehyun-park/java/assets/80663499/44010bf0-7e95-48fb-8c3a-2fe1998a9362">
+<img width="1265" alt="스크린샷 2024-04-30 오전 11 44 44" src="https://www.erdcloud.com/d/YEyac8FdvCoHTCoaE">
 
-
-
-### 📜아키텍처
-**************
-![image](https://github.com/jehyun-park/java/assets/80663499/1f5fac62-b06b-4f8b-be56-ca6d2c326030)
-
-
-
-=======
-<img width="1265" alt="스크린샷 2024-04-30 오전 11 44 44" src="https://github.com/sparta-finals/finalticket/assets/80663499/47868edb-b067-4794-a30d-0b0000afa0aa">
 
 
 
