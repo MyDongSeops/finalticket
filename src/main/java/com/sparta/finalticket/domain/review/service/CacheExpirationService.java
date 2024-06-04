@@ -19,7 +19,7 @@ public class CacheExpirationService {
     // 매 1시간마다 캐시 갱신
     @Scheduled(fixedRate = 60 * 60 * 1000) // milliseconds
     public void refreshCacheHourly() {
-        // 캐시 만료 시간 설정 (예: 1시간)
+        // 캐시 만료 시간 설정
         Duration cacheExpiration = Duration.ofHours(1);
 
         // 모든 리뷰 데이터 조회
