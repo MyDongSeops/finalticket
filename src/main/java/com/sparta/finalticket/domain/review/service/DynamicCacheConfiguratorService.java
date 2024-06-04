@@ -18,15 +18,15 @@ public class DynamicCacheConfiguratorService {
         LocalTime currentTime = LocalTime.now();
 
         // 특정 시간대에 데이터 접근이 증가하는 시간 범위를 설정
-        LocalTime peakStartTime = LocalTime.of(8, 0); // 예시: 아침 8시
-        LocalTime peakEndTime = LocalTime.of(10, 0); // 예시: 아침 10시
+        LocalTime peakStartTime = LocalTime.of(8, 0); // 아침 8시
+        LocalTime peakEndTime = LocalTime.of(10, 0); // 아침 10시
 
         if (currentTime.isAfter(peakStartTime) && currentTime.isBefore(peakEndTime)) {
             // 아침 시간대에는 캐시의 유효 기간을 더 짧게 설정하여 더 자주 업데이트되도록 함
-            adjustCacheDuration(reviewId, review, Duration.ofMinutes(30)); // 예시: 30분
+            adjustCacheDuration(reviewId, review, Duration.ofMinutes(30)); // 30분
         } else {
             // 다른 시간대에는 기본적인 캐시 유효 기간을 사용
-            adjustCacheDuration(reviewId, review, Duration.ofHours(1)); // 예시: 1시간
+            adjustCacheDuration(reviewId, review, Duration.ofHours(1)); // 1시간
         }
     }
 
